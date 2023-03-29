@@ -1,0 +1,97 @@
+body{
+    background-image: url("https://i.ibb.co/HtfMdJS/bg.webp");
+    margin: 0;
+    height: 120vh;
+}
+header{
+   
+    padding: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    /* border: 2px solid crimson; */
+    
+    width: 120px;
+    display: inline-block;
+    font-size: large;
+    font-weight: 600;
+    color: rgb(69, 27, 136)
+    
+}
+.Navbar{
+   
+    width:600px;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    
+   
+}
+.Navbar>a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+.Navbar>a:hover{
+    color: red;
+}
+#homie{
+    color: red;
+}
+.heading{
+    color: aqua;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+    position: relative;
+    top: 60px;
+    left: 70px;
+    /* border: 2px solid white; */
+}
+.heading+h3{
+color: green;
+font-size: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+position: relative;
+top: 20px;
+left:250px;
+
+}
+.heading+h3+p{
+    /* border: 2px solid salmon; */
+    /* width: 600px;
+    padding: 2px;
+    text-align: center;
+    margin: 0; */
+    /* word-spacing: normal; */
+
+text-align: justify; /* aligns text to both left and right edges */
+line-height: 1.5; /* sets the space between lines to 1.5 times the font size */
+font-size: 16px; /* sets the font size to 16 pixels */
+font-family: Arial, sans-serif; /* sets the font family to Arial or any sans-serif font */
+margin: 0; 
+width: 600px;
+color: white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+position: relative;
+top: 100px;
+left: 70px;
+
+}
+.btn{
+    border: 2px solid salmon;
+    width: 120px;
+    padding: 15px;
+   border: none;
+   color: white;
+   font-family: 'Roboto', sans-serif;
+   background-color: brown;
+   position: relative;
+   top: 110px;
+   left: 70px;
+   cursor: pointer;
+}

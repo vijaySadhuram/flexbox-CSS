@@ -1,0 +1,14 @@
+div{
+    height: 100px;
+    width: 100px;
+    font-size: large;
+    background-color: antiquewhite;
+    
+}
+body{
+    display: flex;
+    border: 2px solid sienna;
+    justify-content: center;
+    justify-content: space-between;
+
+}
