@@ -1,6 +1,37 @@
-﻿# flexbox-CSS
- ----------------
- Execute index.html
+**Display property**
+
+The display property specifies the display behavior (the type of rendering box) of an element.
+
+The term "display property" typically refers to a CSS property that controls how an element is rendered on a web page. It determines the box type and layout behavior of the element. In CSS, there are several display properties you can use to control the rendering of elements. Here are some of the most common ones:
+
+1. `display: block;`
+   - The element will generate a block-level box, which means it will take up the full width available and create a new line before and after the element.
+
+2. `display: inline;`
+   - The element will generate an inline-level box, which means it will only take up as much width as necessary and won't create new lines before or after it. Other inline elements can appear beside it.
+
+3. `display: inline-block;`
+   - The element will generate an inline-level box but will also respect height and width properties. It will flow inline with other elements but can have specified dimensions.
+
+4. `display: flex;`
+   - The element becomes a flex container, and its direct children become flex items. This allows you to create flexible layouts and easily control the positioning and alignment of items within the container.
+
+5. `display: grid;`
+   - The element becomes a grid container, and its direct children become grid items. Grid layout enables you to create two-dimensional layouts with rows and columns.
+
+6. `display: none;`
+   - The element will not be displayed on the page at all. It is effectively removed from the layout flow.
+
+7. `display: inline-flex;`
+   - Similar to `display: flex;`, but the container behaves like an inline-level element.
+
+8. `display: table;`, `display: table-row;`, `display: table-cell;`
+   - These display values simulate the behavior of HTML tables, allowing you to create table-like layouts using non-table elements.
+
+The choice of the display property depends on the desired layout and behavior you want to achieve. It's important to understand the differences between block-level and inline-level elements and how they interact with other elements on the page.
+ 
+ 
+
 
 
  Flexbox, or Flexible Box Layout, is a CSS layout module that provides a more efficient way to arrange and align elements within a container. It offers a flexible and responsive approach to building web page layouts, especially for complex and dynamic designs.
@@ -69,3 +100,8 @@ To use Flexbox, you need to define a flex container and specify how its child el
    ```
 
 These are the basic concepts of Flexbox. However, there are many more properties and advanced features available. You can refer to the official CSS documentation or various online resources to explore and learn more about Flexbox.
+
+
+
+
+
